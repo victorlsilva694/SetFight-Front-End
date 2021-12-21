@@ -1,7 +1,7 @@
 import { NofifyContainer, ImageModal, ImgContext, TextContent } from './style';
 import imageConor from './img/quando-jon-jones-começou-no-mma.jpg';
 
-export function SessionThree() {
+export const SessionThree = () => {
   return (
     <NofifyContainer>
       <TextContent>

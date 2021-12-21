@@ -67,6 +67,8 @@ export const Login = styled.button`
   height: 50px;
   top: 10px;
   border-radius: 6px;
+  font-family: 'Open Sans';
+  font-size: max(1.2vw,15px);
   border: none;
   background-color: rgb(195,195,195);
 `;

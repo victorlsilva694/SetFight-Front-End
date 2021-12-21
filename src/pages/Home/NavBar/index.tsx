@@ -1,6 +1,16 @@
 import { Navbar, Brand, ListItens, Login } from './style';
+import { Link, useNavigate } from 'react-router-dom';
 
-export function NavBar() {
+export const NavBar = () => {
+
+  const navigate = useNavigate();
+
+  const redirectNavigate = () => {
+    navigate('/login', {
+      replace: true
+    });
+  }
+
   return (
     <Navbar >
       <Brand>
@@ -24,8 +34,8 @@ export function NavBar() {
             </p>
           </li>
           <li>
-            <Login>
-              
+            <Login onClick={redirectNavigate}>
+              Entrar
             </Login>
           </li>
         </ul>

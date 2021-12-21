@@ -35,8 +35,27 @@ export const LeftContainer = styled.div`
   img {
     position: relative;
     left: 27.5%;
-    top: 8vh;
+    top: 2vh;
     width: 45%;
     height: 50%;
+  }
+`;
+export const ContainerSocials = styled.div`
+  width: 35%;
+  position: absolute;
+  left: 28%;
+  display: flex;
+  height: 60px;
+  top: 25vh;
+
+  div {
+    width: 25%;
+    height: 50px;
+    margin: 10px;
+
+    img {
+      width: 100%;
+      height: 50px;
+    }
   }
 `;

@@ -1,7 +1,7 @@
 import { Sessiontwo, ContainerWrapper, BoxImageContainer } from './style';
 import imgSession from './img/wallpaperbetter (1).jpg';
 
-export function SessionTwo() {
+export const SessionTwo = () => {
   return (
     <Sessiontwo>
       <ContainerWrapper>

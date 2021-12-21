@@ -1,11 +1,15 @@
-import { CardGrid, LeftContainer } from './style';
+import { CardGrid, LeftContainer, ContainerSocials } from './style';
 import ConorMcgregor from './img/Conor-McGregor.jpg';
 import JonJones from './img/gettyimages-1342173777.jpg';
 import RondaRousey from './img/ronda-rousey-e1566316200403.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
+import whatsApp from './img/whatsapp.png';
+import faceBook from './img/logotipo-do-aplicativo-do-facebook.png';
+import linkedin from './img/logotipo-do-linkedin.png';
+import instagram from './img/instagram.png';
 import brandImage from './img/favpng_ufc-205-alvarez-vs-mcgregor-t-shirt-reebok-boxing-mixed-martial-arts.png';
 
-export function SessionFour() {
+export const SessionFour = () => {
   return (
     <CardGrid>
       <LeftContainer>
@@ -62,6 +66,21 @@ export function SessionFour() {
 
       <LeftContainer>
         <img src={brandImage} alt="" />
+
+        <ContainerSocials>
+          <div>
+            <img src={whatsApp} alt="" />
+          </div>
+          <div>
+            <img src={faceBook} alt="" />
+          </div>
+          <div>
+            <img src={linkedin} alt="" />
+          </div>
+          <div>
+            <img src={instagram} alt="" />
+          </div>
+        </ContainerSocials>
       </LeftContainer>
     </CardGrid>
   );

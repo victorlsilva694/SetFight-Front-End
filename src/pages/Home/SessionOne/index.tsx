@@ -3,7 +3,7 @@ import imgSession from './img/favpng_conor-mcgregor-ea-sports-ufc-2-ultimate-fig
 import imgBrand from './img/favpng_ufc-205-alvarez-vs-mcgregor-t-shirt-reebok-boxing-mixed-martial-arts.png';
 import nextImage from './img/next.png';
 
-export function SessionOne() {
+export const SessionOne = () => {
   return (
     <Sessionone>
 
